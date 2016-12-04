@@ -1,0 +1,52 @@
+.header{
+	background-color: #25292d;
+	color: white;
+	text-align: center;
+	text-shadow: 5px 5px 5px blue;/*模糊阴影*/
+    padding: 5px;
+}
+
+.content{
+	width: 100%;
+	margin: 5px;
+}
+
+.article{
+	width:61.8%;
+	float:left;
+	height: 500px;
+}
+
+.nav{
+	width: last;
+	height: 500px;
+	margin: 5px;
+}
+.nav img{
+	width: 30%;
+	height: 300px;
+	position: relative;
+	left: 5%; 
+}
+
+.list{
+	position: relative;
+	left: 2%; 
+	list-style-type: none;
+	overflow:hidden;
+}
+
+.list li{
+	width: 25%;
+	background-color: #25292d;
+	display: block;
+	font-weight: bold;
+	color:#FFFFFF;
+	margin: 0 0 2px 0;
+}
+
+.footer{
+	background-color: #25292d;
+    color: white;
+	text-align: center;
+}
